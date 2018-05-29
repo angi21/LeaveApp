@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Leavapp </string>
+    <string name="email"> Receiver E-mail Id </string>
+    <string name="pname">Receiver name</string>
+    <string name="cause">Cause</string>
+    <string name="fdate">From Date</string>
+    <string name="rdate">Return Date</string>
+    <string name="yname">Signature</string>
+</resources>

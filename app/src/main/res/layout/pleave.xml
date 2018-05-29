@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    android:padding="25sp"
+    android:layout_marginTop="45sp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipient Mail id"
+        android:textColor="@color/txt"
+        android:fontFamily="casual"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailid"
+        android:background="@drawable/edtbox"
+        android:focusable="true"
+        android:textSize="15sp"
+        />
+    <TextView
+
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="Recipient Name"
+        android:textColor="@color/txt"
+        android:fontFamily="casual"
+        android:layout_marginTop="20sp"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:background="@drawable/edtbox"
+        android:focusable="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due date"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/txt"
+        android:fontFamily="casual"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/due"
+        android:background="@drawable/edtbox"
+        android:focusable="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Signature"
+        android:textColor="@color/txt"
+        android:fontFamily="casual"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signature"
+        android:background="@drawable/edtbox"
+        android:focusable="true"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/osbtn"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</LinearLayout>
